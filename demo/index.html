@@ -5,27 +5,42 @@
 <title>AegisCV Prototype Demo</title>
 
 <style>
+
 body{
-font-family: Arial, sans-serif;
-background:#f7f7f7;
-text-align:center;
 margin:0;
-padding:40px;
+font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+color:white;
+
+background:
+radial-gradient(circle at 20% 20%, #1a2a45 0%, transparent 40%),
+radial-gradient(circle at 80% 30%, #0d1b2a 0%, transparent 40%),
+linear-gradient(180deg,#05080f,#020409);
 }
 
 .container{
 max-width:900px;
 margin:auto;
+padding:80px 30px;
+text-align:center;
 }
 
 h1{
-font-size:32px;
+font-size:40px;
 margin-bottom:10px;
 }
 
 p{
-color:#555;
-margin-bottom:30px;
+color:#9aa4b2;
+margin-bottom:40px;
+font-size:18px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:14px;
+padding:20px;
+backdrop-filter: blur(10px);
 }
 
 .video{
@@ -33,6 +48,7 @@ position:relative;
 padding-bottom:56.25%;
 height:0;
 overflow:hidden;
+border-radius:10px;
 }
 
 .video iframe{
@@ -46,11 +62,11 @@ border:0;
 
 .footer{
 margin-top:40px;
+color:#7c8798;
 font-size:14px;
-color:#888;
 }
-</style>
 
+</style>
 </head>
 
 <body>
@@ -60,6 +76,25 @@ color:#888;
 <h1>AegisCV Prototype Demo</h1>
 
 <p>
+AI-powered real-time loss prevention for fashion retail
+</p>
+
+<div class="card">
+
+<div class="video">
+<iframe src="https://www.youtube.com/embed/Xi4OLB7EhGo" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<div class="footer">
+aegiscv.com
+</div>
+
+</div>
+
+</body>
+</html><p>
 AI-powered real-time loss prevention for fashion retail
 </p>
 
