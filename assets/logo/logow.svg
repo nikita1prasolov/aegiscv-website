@@ -4,7 +4,7 @@
   xmlns="http://www.w3.org/2000/svg">
 
   <style>
-    path { fill: #000; }
+    path { fill: #fff; }
 
     @media (prefers-color-scheme: light) {
       path { fill: #000; }
