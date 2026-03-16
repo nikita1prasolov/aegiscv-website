@@ -75,9 +75,11 @@
     .brand {
       display: flex;
       align-items: center;
-      gap: 10px;
-      font-weight: 800;
-      letter-spacing: -0.02em;
+    }    
+    .brand-logo {
+      display: block;
+      height: 32px;
+      width: auto;
     }
     .dot {
       width: 10px;
@@ -415,8 +417,7 @@
   <div class="topbar">
     <div class="wrap topbar-inner">
       <div class="brand">
-        <div class="dot"></div>
-        <div>AegisCV</div>
+        <img src="assets/logo/logow.svg" alt="AegisCV" class="brand-logo">
       </div>
       <div class="nav">
         <a href="#problem">Problem</a>
