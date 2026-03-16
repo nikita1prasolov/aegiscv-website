@@ -80,11 +80,13 @@
       display: block;
       height: 48px;
       width: auto;
+      filter: brightness(0) invert(1);
     }
-    @media (prefers-color-scheme: dark) {
-      .brand-logo {
-        filter: brightness(0) invert(1);
-      }
+    .footer-logo {
+      display: block;
+      height: 24px;
+      width: auto;
+      filter: brightness(0) invert(1);
     }
     .dot {
       width: 10px;
@@ -637,7 +639,10 @@
 
       <div class="footer">
         <div class="footer-row">
-          <div>© 2026 AegisCV</div>
+          <div class="brand">
+            <span>© 2026 </span>
+            <img src="assets/logo/logow.svg" alt="AegisCV" class="footer-logo">
+          </div>
           <div><a href="#top">Back to top ↑</a></div>
         </div>
       </div>
